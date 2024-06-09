@@ -17,8 +17,11 @@ const Sidebar = props => {
         <img
           src="https://cdn.siasat.com/wp-content/uploads/2022/11/Spotify.jpg"
           alt="website logo"
-          className="website-logo"
+          className="website-logo1"
         />
+        <h1 className="heading">Spotify</h1>
+        <p className="str">music streaming app</p>
+        <p className="str">Enjoy the music with latest albums</p>
       </Link>
       <buton type="button" className="side-logout-btn" onClick={logoutClicked}>
         Logout

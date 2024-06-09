@@ -72,8 +72,7 @@ class PlaylistDetails extends Component {
           </div>
           <div className="playlist-details">
             <p className="playlist-type">Editor&#39;s Picks</p>
-            <h2 className="playlist-name">{name}</h2>
-            <p className="playlist-artist">{artist}</p>
+            <h2 className="playlist-name">{name}</h2>  
           </div>
         </div>
         <p className="playlist-artist">{description}</p>

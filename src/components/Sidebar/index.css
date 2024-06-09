@@ -14,6 +14,14 @@
 
   padding: 23px 0;
 }
+.str {
+  font-size: 15px;
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Roboto';
+  text-align: left;
+}
 @media (min-width: 768px) {
   .sidebar {
     display: flex;
@@ -24,14 +32,23 @@
 }
 
 /* Styling Image */
-.website-logo {
-  width: 53px;
-  height: 24px;
+.website-logo1 {
+  width: 80px;
+  height: 50px;
   transition: 1s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  text-align: center;
 }
 .website-logo:hover {
   width: 55px;
   height: 26px;
+}
+.heading {
+  font-size: 25px;
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Roboto';
+  text-decoration: underline;
 }
 
 /* Styling button */

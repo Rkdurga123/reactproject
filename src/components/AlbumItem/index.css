@@ -7,7 +7,7 @@
 }
 
 .large {
-  display: none;
+  display: flex;
 }
 .small {
   width: 100%;
@@ -23,7 +23,7 @@
     display: flex;
   }
   .small {
-    display: none;
+    display: flex;
   }
 }
 

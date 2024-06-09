@@ -65,7 +65,7 @@
   text-align: center;
 }
 .album-type {
-  display: none;
+  display: flex;
 }
 .album-artist {
   font-family: 'Inter';
@@ -162,10 +162,10 @@ span {
 }
 @media (max-width: 767px) {
   .track-headings {
-    display: none;
+    display: flex;
   }
   .line {
-    display: none;
+    display: flex;
   }
 }
 

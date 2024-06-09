@@ -15,17 +15,17 @@ const Header = props => {
   }
 
   const renderHeader = () => (
-    <nav className="navbar-sm" data-testid="navbarSm">
-      <Link to="/" className="link-item">
+    <nav className='navbar-sm' data-testid='navbarSm'>
+      <Link to='/' className='link-item'>
         <img
-          src="https://res.cloudinary.com/dgga8cymk/image/upload/v1712240724/1Spotify/Login/remix-logo-sm.png"
-          alt="website logo"
-          className="nav-img"
+          src='https://res.cloudinary.com/dgga8cymk/image/upload/v1712240724/1Spotify/Login/remix-logo-sm.png'
+          alt='website logo'
+          className='nav-img'
         />
       </Link>
-      <div className="nav-options">
-        <FiMenu color="#ffffff" size="21" />
-        <button className="logout-btn" type="button" onClick={logOut}>
+      <div className='nav-options'>
+        <FiMenu color='#ffffff' size='21' />
+        <button className='logout-btn' type='button' onClick={logOut}>
           Logout
           <RiLogoutCircleRLine />
         </button>

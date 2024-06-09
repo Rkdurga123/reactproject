@@ -139,14 +139,3 @@
   border-top: solid 1.3px #cbcbcb;
   margin: 1px;
 }
-@media (max-width: 767px) {
-  .track-headings {
-    display: none;
-  }
-  .playlist-heading-item {
-    display: none;
-  }
-  .line {
-    display: none;
-  }
-}
